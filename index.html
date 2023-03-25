@@ -10,46 +10,74 @@
 
   <body>
     <!-- Valorant Strat Generator -->
-    <div class = "valorant__title">
-      <h1 class = "valorant__text">VALORANT</h1>
-      <h1 class = "valorant__text1">Strat Roulette</h1>
-    </div>
-    <div class = "valorant__logo">
-      <img class = "valorant__image" src = "valorantLogo.png">
-    </div>
-
-    <div class = "valorant__generate">
-      <button onclick="getRandomStrat()" class = "valorantButton">Generate Strats!</button>
-    </div>
-
-    <div class = "valorant__strat">
-      <p class = "valorant__strat__text">Valorant Strat:</p>
-      <p id = "random__strat"></p>
-    </div>
-
-    <!-- Valorant Gun Generator -->
-    <div class = "gun__title">
-      <h1 class = "valorant__text">VALORANT</h1>
-      <h1 class = "gun__text">Gun Roulette</h1>
-    </div>
-
-    <!-- <div class = "gun__logo">
-      <img class = "gun__image" src = "bestVandalSkin.png">
-    </div> -->
-
-    <div class = "valorant__generate">
-      <button onclick="getRandomGun()" class = "valorantButton">Generate Guns!</button>
-    </div>
-
-    <div class = "valorant__strat">
-      <p class = "valorant__gun__text">Valorant Gun:</p>
-      <p id = "random__gun"></p>
-      <div class = "image__div">
-        <img id = "random__gun__image">
+    <div class = "valorantStratGenerator">
+      <div class = "valorant__title">
+        <h1 class = "valorant__text">VALORANT</h1>
+        <h1 class = "valorant__text1">Strat Roulette</h1>
       </div>
-    </div>
+      <!-- <div class = "valorant__logo">
+        <img class = "valorant__image" src = "valorantLogo.png">
+      </div> -->
+  
+      <div class = "valorant__generate">
+        <button onclick="getRandomStrat()" class = "valorantButton">Generate Strats!</button>
+      </div>
+  
+      <div class = "valorant__strat">
+        <p class = "valorant__strat__text">Valorant Strat:</p>
+        <p id = "random__strat"></p>
+      </div>
 
-    <div class = "bottom"></div>
+      <!-- Valorant Gun Generator -->
+      <div class = "valorantGunGenerator">
+        <div class = "gun__title">
+          <h1 class = "valorant__text">VALORANT</h1>
+          <h1 class = "gun__text">Gun Roulette</h1>
+        </div>
+    
+        <!-- <div class = "gun__logo">
+          <img class = "gun__image" src = "bestVandalSkin.png">
+        </div> -->
+    
+        <div class = "valorant__generate">
+          <button onclick="getRandomGun()" class = "valorantButton">Generate Guns!</button>
+        </div>
+    
+        <div class = "valorant__strat">
+          <p class = "valorant__gun__text">Valorant Gun:</p>
+          <p id = "random__gun"></p>
+          <div class = "image__div">
+            <img id = "random__gun__image">
+          </div>
+        </div>
+    
+        <!-- Agent Generator -->
+      <div class = "valorantGunGenerator">
+        <div class = "gun__title">
+          <h1 class = "valorant__text">VALORANT</h1>
+          <h1 class = "gun__text">Agent Roulette</h1>
+        </div>
+    
+        <div class = "valorant__generate">
+          <button onclick="getRandomAgent()" class = "valorantButton">Generate Agents!</button>
+        </div>
+    
+        <div class = "valorant__strat">
+          <p class = "valorant__gun__text">Valorant Agent:</p>
+          <p id = "random__agent"></p>
+          <div class = "image__div">
+            <img id = "random__agent__image">
+          </div>
+        </div>
+
+        <!-- Copyright Thing -->
+        <p class = "disclaimer">
+          This site was created under Riot Games' 
+          <a href = "https://www.riotgames.com/en/legal">"Legal Jibber Jabber"</a>
+          policy using assets owned by Riot Games.  Riot Games does not endorse or sponsor this project.
+        </p>
+      </div>
+    
     <script src="myscripts.js"></script>
   </body>
 

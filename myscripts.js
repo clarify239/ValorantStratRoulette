@@ -31,7 +31,10 @@ const strats = [
   "Must Comm Every Action",
   "Only Bottom Frag May Comm",
   "Only Bottom Frag May Get Kills",
-  "Pick Up Enemy Gun for Every Kill"
+  "Pick Up Enemy Gun for Every Kill",
+  "Can Only Use First Ability",
+  "Can Only Use Second Ability",
+  "Can Only Use Third Ability",
 ];
 
 // const valorantButton = document.querySelector(".valorantButton");
@@ -89,32 +92,67 @@ const gunsImages = [
   "/valorantGuns/knife.png",
 ]
 
-const gunsImages1 = [
-  "/valorantGuns1/classic.png",
-  "/valorantGuns1/shorty.png",
-  "/valorantGuns1/frenzy.png",
-  "/valorantGuns1/ghost.png",
-  "/valorantGuns1/sheriff.png",
-  "/valorantGuns1/stinger.png",
-  "/valorantGuns1/spectre.png",
-  "/valorantGuns1/bucky.png",
-  "/valorantGuns1/marshal.png",
-  "/valorantGuns1/judge.png",
-  "/valorantGuns1/bulldog.png",
-  "/valorantGuns1/guardian.png",
-  "/valorantGuns1/phantom.png",
-  "/valorantGuns1/vandal.png",
-  "/valorantGuns1/marshal.png",
-  "/valorantGuns1/operator.png",
-  "/valorantGuns1/ares.png",
-  "/valorantGuns1/odin.png",
-  "/valorantGuns1/knife.png",
-]
-
 function getRandomGun(){
   const randomIndex1 = Math.floor(Math.random() * guns.length);
   //  console.log(randomIndex);
    const gunText = guns[randomIndex1];
    document.getElementById("random__gun").innerHTML = gunText;
-   document.getElementById("random__gun__image").src = gunsImages1[randomIndex1];
+   document.getElementById("random__gun__image").src = gunsImages[randomIndex1];
+}
+
+const agents = [
+  "Astra",
+  "Breach",
+  "Brimstone",
+  "Chamber",
+  "Cypher",
+  "Fade",
+  "Gekko",
+  "Harbor",
+  "Jett",
+  "KAY/O",
+  "Killjoy",
+  "Neon",
+  "Omen",
+  "Phoenix",
+  "Raze",
+  "Reyna",
+  "Sage",
+  "Skye",
+  "Sova",
+  "Viper",
+  "Yoru"
+];
+
+const agentImages = [
+  "./valorantAgents/Astra_icon.png",
+  "./valorantAgents/Breach_icon.png",
+  "./valorantAgents/Brimstone_icon.png",
+  "./valorantAgents/Chamber_icon.png",
+  "./valorantAgents/Cypher_icon.png",
+  "./valorantAgents/Fade_icon.png",
+  "./valorantAgents/Gekko_icon.png",
+  "./valorantAgents/Harbor_icon.png",
+  "./valorantAgents/Jett_icon.png",
+  "./valorantAgents/KAYO_icon.png",
+  "./valorantAgents/Killjoy_icon.png",
+  "./valorantAgents/Neon_icon.png",
+  "./valorantAgents/Omen_icon.png",
+  "./valorantAgents/Phoenix_icon.png",
+  "./valorantAgents/Raze_icon.png",
+  "./valorantAgents/Reyna_icon.png",
+  "./valorantAgents/Sage_icon.png",
+  "./valorantAgents/Skye_icon.png",
+  "./valorantAgents/Sova_icon.png",
+  "./valorantAgents/Viper_icon.png",
+  "./valorantAgents/Yoru_icon.png",
+];
+
+
+function getRandomAgent(){
+  const randomIndex2 = Math.floor(Math.random() * agents.length);
+  //  console.log(randomIndex);
+   const agentText = agents[randomIndex2];
+   document.getElementById("random__agent").innerHTML = agentText;
+   document.getElementById("random__agent__image").src = agentImages[randomIndex2];
 }
