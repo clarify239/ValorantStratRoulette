@@ -61,7 +61,7 @@
 .valorantButton{
   height: 50%;
   width: 50%;
-  border:solid;
+  /* border:solid; */
   font-size:150%;
   padding: 1% 1% 1% 1%;
   text-align:center;
@@ -86,7 +86,8 @@
 }
 
 .valorant__strat{
-  border:solid;
+  /* border:solid; */
+  border:none;
   border-color: #53212B;
   border-width: 5px;
   margin:auto;
@@ -106,7 +107,7 @@
 #random__strat,
 #random__gun,
 #random__agent{
-  font-size: 200%;
+  font-size: 250%;
   color: #53212B;
 }
 
