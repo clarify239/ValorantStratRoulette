@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
   <head>
     <title>Valorant Strat Roulette</title>
     <link rel = "stylesheet" href="styles.css">
@@ -6,7 +7,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
   </head>
+
   <body>
+    <!-- Valorant Strat Generator -->
     <div class = "valorant__title">
       <h1 class = "valorant__text">VALORANT</h1>
       <h1 class = "valorant__text1">Strat Roulette</h1>
@@ -14,14 +17,40 @@
     <div class = "valorant__logo">
       <img class = "valorant__image" src = "valorantLogo.png">
     </div>
+
     <div class = "valorant__generate">
-      <button onclick="getRandomItem()" class = "valorantButton">Generate</button>
+      <button onclick="getRandomStrat()" class = "valorantButton">Generate Strats!</button>
     </div>
+
     <div class = "valorant__strat">
       <p class = "valorant__strat__text">Valorant Strat:</p>
       <p id = "random__strat"></p>
     </div>
 
+    <!-- Valorant Gun Generator -->
+    <div class = "gun__title">
+      <h1 class = "valorant__text">VALORANT</h1>
+      <h1 class = "gun__text">Gun Roulette</h1>
+    </div>
+
+    <!-- <div class = "gun__logo">
+      <img class = "gun__image" src = "bestVandalSkin.png">
+    </div> -->
+
+    <div class = "valorant__generate">
+      <button onclick="getRandomGun()" class = "valorantButton">Generate Guns!</button>
+    </div>
+
+    <div class = "valorant__strat">
+      <p class = "valorant__gun__text">Valorant Gun:</p>
+      <p id = "random__gun"></p>
+      <div class = "image__div">
+        <img id = "random__gun__image">
+      </div>
+    </div>
+
+    <div class = "bottom"></div>
     <script src="myscripts.js"></script>
   </body>
+
 </html>
