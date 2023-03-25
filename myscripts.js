@@ -71,26 +71,26 @@ const guns = [
 ];
 
 const gunsImages = [
-  "/valorantGuns/classic.png",
-  "/valorantGuns/shorty.png",
-  "/valorantGuns/frenzy.png",
-  "/valorantGuns/ghost.png",
-  "/valorantGuns/sheriff.png",
-  "/valorantGuns/stinger.png",
-  "/valorantGuns/spectre.png",
-  "/valorantGuns/bucky.png",
-  "/valorantGuns/marshal.png",
-  "/valorantGuns/judge.png",
-  "/valorantGuns/bulldog.png",
-  "/valorantGuns/guardian.png",
-  "/valorantGuns/phantom.png",
-  "/valorantGuns/vandal.png",
-  "/valorantGuns/marshal.png",
-  "/valorantGuns/operator.png",
-  "/valorantGuns/ares.png",
-  "/valorantGuns/odin.png",
-  "/valorantGuns/knife.png",
-]
+  "./valorantGuns/classic.png",
+  "./valorantGuns/shorty.png",
+  "./valorantGuns/frenzy.png",
+  "./valorantGuns/ghost.png",
+  "./valorantGuns/sheriff.png",
+  "./valorantGuns/stinger.png",
+  "./valorantGuns/spectre.png",
+  "./valorantGuns/bucky.png",
+  "./valorantGuns/marshal.png",
+  "./valorantGuns/judge.png",
+  "./valorantGuns/bulldog.png",
+  "./valorantGuns/guardian.png",
+  "./valorantGuns/phantom.png",
+  "./valorantGuns/vandal.png",
+  "./valorantGuns/marshal.png",
+  "./valorantGuns/operator.png",
+  "./valorantGuns/ares.png",
+  "./valorantGuns/odin.png",
+  "./valorantGuns/knife.png",
+];
 
 function getRandomGun(){
   const randomIndex1 = Math.floor(Math.random() * guns.length);
