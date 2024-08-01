@@ -35,6 +35,19 @@ const strats = [
   "Can Only Use First Ability",
   "Can Only Use Second Ability",
   "Can Only Use Third Ability",
+  "Free Pass, Play Normal! :)",
+  "Top Frag Comm ONLY",
+  "Must Use Ultimate if You Have",
+  "Must Play in Window Mode (Small Screen)",
+  "Hold Space (JUMP)",
+  "Must 360 After Every Kill",
+  "Must T-Bag Every Kill",
+  "Only Guns that Teammates Buy (MUST REQUEST)",
+  "Wrong Comms Only (Can't tell teammates)",
+  "Can't Stop Moving",
+  "Flick Only",
+  "Flash/Blind/Stun Teammates (If Possible)",
+  "Trash Talk Other Team in Team Chat"
 ];
 
 // const valorantButton = document.querySelector(".valorantButton");
@@ -67,7 +80,9 @@ const guns = [
   "Operator",
   "Ares",
   "Odin",
-  "Knife"
+  "Knife",
+  "Outlaw",
+  "Your choosing!!"
 ];
 
 const gunsImages = [
@@ -90,6 +105,8 @@ const gunsImages = [
   "./valorantGuns/ares.png",
   "./valorantGuns/odin.png",
   "./valorantGuns/knife.png",
+  "./valorantGuns/outlaw.png",
+  "bestVandalSkin.png"
 ];
 
 function getRandomGun(){
@@ -121,7 +138,10 @@ const agents = [
   "Skye",
   "Sova",
   "Viper",
-  "Yoru"
+  "Yoru",
+  "Clove",
+  "Iso",
+  "Deadlock"
 ];
 
 const agentImages = [
@@ -146,6 +166,9 @@ const agentImages = [
   "./valorantAgents/Sova_icon.png",
   "./valorantAgents/Viper_icon.png",
   "./valorantAgents/Yoru_icon.png",
+  "./valorantAgents/Clove_icon.png",
+  "./valorantAgents/Iso_icon.png",
+  "./valorantAgents/Deadlock_icon.png",
 ];
 
 
